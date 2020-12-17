@@ -1,0 +1,35 @@
+h2{
+  background-color: powderblue;
+}
+.container{
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-color:salmon;
+
+}
+
+.imageBox{
+  width:50%;
+  align-items: center;
+  margin-left: 20%;
+  margin-top: 50px;
+filter: invert(70%);
+}
+
+.message{
+  position:absolute;
+  top:20%;
+  left:30%;
+  height: auto;
+  width: 20%;
+  color: white;
+  background-color: rgba(240, 133, 79, 0.3);
+
+
+}
+
+.click{
+  position: absolute;
+  right: 30%;
+  bottom: 30%;

@@ -1,0 +1,158 @@
+.linkModal{
+  text-align: center;
+  background-color:orange;
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  top:70%;
+  position: relative;
+}
+
+.modalwindow{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #34495E;
+  opacity: 0;
+  pointer-events:none;
+}
+.modalwindow:target{
+  opacity: 0.97;
+  pointer-events: auto;
+}
+
+.msgtext{
+  position: relative;
+  width: 60%;
+  height:80%;
+  margin: auto;
+  margin-top: 10%;
+  background-color: orange;
+
+
+}
+
+.msgtext h1{
+  padding:20px;
+  background-color: black;
+  color: white;
+}
+.msgtext p{
+  padding: 20px;
+  text-align: justify;
+  background-color: inherit;
+  color: white;
+}
+.msgtext img{
+  width:50%;
+  height: auto;
+  margin-left: 25%;
+}
+.modal-close{
+  background-color:purple;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  text-align: right;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.box{
+  width: 40%;
+  height:700px;
+  float: left;
+  margin-left:5%;
+  border: solid red;
+  padding: 20px 20px;
+  position: absolute;
+
+}
+
+.box2{
+  width: 40%;
+  height:700px;
+  float: left;
+  margin-left:50%;
+  border: solid red;
+  padding: 20px 20px;
+  position: absolute;
+}
+.linkModal2{
+  text-align: center;
+  background-color: orange;
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  top:70%;
+  position: relative;
+}
+
+.modalwindow2{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: lightgreen;
+  opacity: 0;
+  pointer-events:none;
+}
+.modalwindow2:target{
+  opacity: 0.97;
+  pointer-events: auto;
+}
+.modal-close2{
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: grey;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.topright {
+  position: absolute;
+  right: 0;
+  top: 0
+}
+
+.msgtext2{
+  position: relative;
+  width: 60%;
+  height:80%;
+  margin: auto;
+  margin-top: 10%;
+  background-color: powderblue;
+
+
+}
+
+.msgtext2 h1{
+  padding:20px;
+  background-color: black;
+  color: white;
+}
+.msgtext2 p{
+  padding: 20px;
+  text-align: justify;
+  background-color: inherit;
+  color: white;
+}
+.msgtext2 img{
+  width:50%;
+  height: auto;
+  margin-left: 25%;
+}
